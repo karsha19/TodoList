@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@keyframes color {
+  20%   { background: #33CCCC; }
+ 
+ 40%{background:violet;}
+ 40%{background:darkorchid}
+  40% {background:purple;}
+
+ 
+  100% { background: #33CCCC; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
